@@ -152,11 +152,3 @@
 
 </html>
 
-<div class="${explosionImagesClassName}">
-    ${Array.from(this.linkNodes).map((linkNodes) => `
-        <img src="${linkNode.getAttribute('href')}" alt="$
-        {linkNode.dataset.title}" class="$
-        {explosionImageClassName}" data-title="${linkNode.dataset.title}"
-        data-description="${linkNode.dataset.description}" />
-    `).join('')}
-</div>
