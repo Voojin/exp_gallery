@@ -93,7 +93,7 @@
   height: 3rem;
   border: none;
   background: none;
-  background-image: url("/libs/explosion/images/close.svg");
+  background-image: url("../images/close.svg");
   cursor: pointer;
   background-repeat: no-repeat;
   background-position: center;
@@ -139,19 +139,19 @@
 }
 
 .explosionNavPrev {
-  background-image: url("/libs/explosion/images/arrow-up.svg");
+  background-image: url("../images/arrow-up.svg");
 }
 
 .explosionNavPrev:hover {
-  background-image: url("/libs/explosion/images/arrow-up-white.svg");
+  background-image: url("../images/arrow-up-white.svg");
 }
 
 .explosionNavNext {
-  background-image: url("/libs/explosion/images/arrow-down.svg");
+  background-image: url("../images/arrow-down.svg");
 }
 
 .explosionNavNext:hover {
-  background-image: url("/libs/explosion/images/arrow-down-white.svg");
+  background-image: url("../images/arrow-down-white.svg");
 }
 
 .explosionCounter {
